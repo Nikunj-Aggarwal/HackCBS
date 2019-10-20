@@ -1,0 +1,148 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.nielit"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:6:5-76
+12-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:6:22-73
+13
+14    <application
+14-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:8:5-63:19
+15        android:allowBackup="true"
+15-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.0.1] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\46da25c3e2ae6308b2227b660caa604d\core-1.0.1\AndroidManifest.xml:22:18-86
+17        android:debuggable="true"
+18        android:icon="@drawable/download"
+18-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:10:9-42
+19        android:label="Fresh Food"
+19-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:11:9-35
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:12:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:13:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme"
+23-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:14:9-40
+24        android:usesCleartextTraffic="true" >
+24-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:15:9-44
+25        <activity
+25-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:16:9-21:20
+26            android:name="com.example.nielit.splashActivity"
+26-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:16:19-49
+27            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+27-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:16:50-106
+28            <intent-filter>
+28-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:17:13-20:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:18:17-68
+29-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:18:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:19:17-76
+31-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:19:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:22:9-25:59
+35            android:name="com.example.nielit.OurTeam"
+35-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:23:13-36
+36            android:label="@string/title_activity_our_team"
+36-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:24:13-60
+37            android:theme="@style/AppTheme.NoActionBar" />
+37-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:25:13-56
+38        <activity
+38-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:26:9-29:59
+39            android:name="com.example.nielit.Registration"
+39-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:27:13-41
+40            android:label="@string/title_activity_registration"
+40-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:28:13-64
+41            android:theme="@style/AppTheme.NoActionBar" />
+41-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:29:13-56
+42        <activity
+42-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:30:9-33:59
+43            android:name="com.example.nielit.nsqf"
+43-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:31:13-33
+44            android:label="NSQF Aligned Courses"
+44-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:32:13-49
+45            android:theme="@style/AppTheme.NoActionBar" />
+45-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:33:13-56
+46        <activity
+46-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:34:9-37:59
+47            android:name="com.example.nielit.zone_wise"
+47-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:35:13-38
+48            android:label="Our Centres"
+48-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:36:13-40
+49            android:theme="@style/AppTheme.NoActionBar" />
+49-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:37:13-56
+50        <activity
+50-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:38:9-41:59
+51            android:name="com.example.nielit.Courses"
+51-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:39:13-36
+52            android:label="@string/title_activity_courses"
+52-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:40:13-59
+53            android:theme="@style/AppTheme.NoActionBar" />
+53-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:41:13-56
+54        <activity
+54-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:42:9-45:59
+55            android:name="com.example.nielit.AboutUs"
+55-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:43:13-36
+56            android:label="About Us"
+56-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:44:13-37
+57            android:theme="@style/AppTheme.NoActionBar" />
+57-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:45:13-56
+58        <activity
+58-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:46:9-49:59
+59            android:name="com.example.nielit.Feedback"
+59-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:47:13-37
+60            android:label="@string/title_activity_feedback"
+60-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:48:13-60
+61            android:theme="@style/AppTheme.NoActionBar" />
+61-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:49:13-56
+62        <activity
+62-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:50:9-53:59
+63            android:name="com.example.nielit.ContactUs"
+63-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:51:13-38
+64            android:label="Contact Us"
+64-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:52:13-39
+65            android:theme="@style/AppTheme.NoActionBar" />
+65-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:53:13-56
+66        <activity
+66-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:54:9-58:20
+67            android:name="com.example.nielit.MainActivity"
+67-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:55:13-41
+68            android:label="Fresh Food"
+68-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:56:13-39
+69            android:theme="@style/AppTheme.NoActionBar" >
+69-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:57:13-56
+70        </activity>
+71
+72        <meta-data
+72-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:60:9-62:57
+73            android:name="preloaded_fonts"
+73-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:61:13-43
+74            android:resource="@array/preloaded_fonts" />
+74-->C:\Users\dell\Desktop\Nielit\app\src\main\AndroidManifest.xml:62:13-54
+75
+76        <provider
+76-->[com.squareup.picasso:picasso:2.71828] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\2514d285fdbc1abb2f5fc872e07d80fa\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+77            android:name="com.squareup.picasso.PicassoProvider"
+77-->[com.squareup.picasso:picasso:2.71828] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\2514d285fdbc1abb2f5fc872e07d80fa\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+78            android:authorities="com.example.nielit.com.squareup.picasso"
+78-->[com.squareup.picasso:picasso:2.71828] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\2514d285fdbc1abb2f5fc872e07d80fa\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+79            android:exported="false" />
+79-->[com.squareup.picasso:picasso:2.71828] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\2514d285fdbc1abb2f5fc872e07d80fa\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+80    </application>
+81
+82</manifest>

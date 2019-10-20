@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nielit"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/download"
+        android:label="Fresh Food"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.example.nielit.splashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nielit.OurTeam"
+            android:label="@string/title_activity_our_team"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nielit.Registration"
+            android:label="@string/title_activity_registration"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nielit.nsqf"
+            android:label="NSQF Aligned Courses"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nielit.zone_wise"
+            android:label="Our Centres"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nielit.Courses"
+            android:label="@string/title_activity_courses"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nielit.AboutUs"
+            android:label="About Us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nielit.Feedback"
+            android:label="@string/title_activity_feedback"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nielit.ContactUs"
+            android:label="Contact Us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nielit.MainActivity"
+            android:label="Fresh Food"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.nielit.com.squareup.picasso"
+            android:exported="false" />
+    </application>
+
+</manifest>

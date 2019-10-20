@@ -1,0 +1,4 @@
+#Sun Oct 20 10:35:33 IST 2019
+base.0=C\:\\Users\\dell\\Desktop\\Nielit\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
