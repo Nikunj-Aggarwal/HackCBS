@@ -1,2 +1,2 @@
 # HackCBS
-project made for the hackCBS
+project made for the hackathons
